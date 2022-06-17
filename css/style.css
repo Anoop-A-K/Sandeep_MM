@@ -16,13 +16,19 @@
 
 .dp2{
     float: left;
-    width: 50%;
+    width: 30%;
+    line-height: 16.1px;
 }
 
 #links{
     display: inline-block;
     vertical-align: middle;
-    margin: 0px 0 40px 200px;
+    margin: 0px 0 40px 150px;
+}
+
+#links li{
+    display: inline-block;
+    margin: 0 4px
 }
 
 #links a {
