@@ -19,7 +19,7 @@
     font-family:'robotobold';src:url("../fonts/Roboto-Bold-webfont.eot");src:url("../fonts/Roboto-Bold-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/Roboto-Bold-webfont.woff") format("woff"),url("../fonts/Roboto-Bold-webfont.ttf") format("truetype"),url("../fonts/Roboto-Bold-webfont.svg#robotobold") format("svg");font-weight:normal;font-style:normal;
 }
 
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,video,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,img {
     margin: 0;
     padding: 0;
     border: 0;
@@ -75,7 +75,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {
     display: block;
 }
 
-audio,canvas,video {
+audio,canvas,img {
     display: inline-block;
     *display: inline;
     *zoom: 1;
@@ -99,7 +99,7 @@ sub {
     bottom: -.25em;
 }
 
-video {
+img {
     border: 0;
     -ms-interpolation-mode: bicubic;
 }
@@ -143,7 +143,8 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #fff;
-    background-color: #000;
+    /* background-color: black; */
+    background-color: #FFFAFA;
     font-family: 'robotolight';
 }
 
@@ -226,10 +227,10 @@ h5 {
 }
 
 .social-icons a {
-    color: #fff;
+    color: black;
     width: 34px;
     height: 34px;
-    border: 1px solid #fff;
+    border: 1px solid black;
     -webkit-border-radius: 17px;
     border-radius: 17px;
     text-align: center;
@@ -242,8 +243,8 @@ h5 {
 }
 
 .social-icons a:hover {
-    background: #fff;
-    color: #000;
+    background: black;
+    color: white;
 }
 
 .social-icons li {
@@ -356,7 +357,7 @@ h5 {
 .site-top {
     position: relative;
     z-index: 4;
-    background: rgba(0,0,0,0.6);
+    /* background: rgba(0,0,0,0.6); */
     margin-bottom: 40px;
     /* padding-bottom: 10px; */
 }
@@ -366,8 +367,8 @@ h5 {
 }
 
 .site-brand {
-    color: #fff;
-    text-transform: uppercase;
+    color: black;
+    /* text-transform: uppercase; */
     font-size: 18px;
 }
 
@@ -424,12 +425,13 @@ h5 {
 }
 
 .post-masonry .post-thumb {
-    border: 10px solid #fff;
+    /* border: 0.5px solid black; */
     overflow: hidden;
     position: relative;
+    box-shadow: 2px 2px 5px black;
 }
 
-.post-masonry .post-thumb video {
+.post-masonry .post-thumb img {
     width: 100%;
     display: block;
 }
@@ -522,9 +524,9 @@ h5 {
 .site-footer {
     position: relative;
     z-index: 8;
-    background: rgba(0,0,0,0.6);
-    padding: 40px 0;
-    margin-top: 60px;
+    /* background: rgba(0,0,0,0.6); */
+    padding: 40px ;
+    /* margin-top: 60px; */
 }
 
 .site-footer .social-icons {
@@ -532,9 +534,7 @@ h5 {
 }
 
 .copyright-text {
-    font-size: 12px;
-}
-
-.copyright-text a {
-    color: #bfbfbf;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
 }
