@@ -433,7 +433,9 @@ h5 {
     /* border: 0.5px solid black; */
     overflow: hidden;
     position: relative;
-    box-shadow: 2px 2px 5px black;
+    /* box-shadow: 0 0 20px 2px rgba(0,0,0,0.1); */
+
+    box-shadow: 2px 2px 7px black;
 }
 
 .post-masonry .post-thumb img {
@@ -520,10 +522,14 @@ h5 {
     bottom: -50px;
 }
 
-.post-masonry .post-thumb:hover .post-hover {
-    top: 0;
+.post-masonry .post-thumb:hover{
+    /* top: 0;
     visibility: visible;
-    opacity: 1;
+    opacity: 1; */
+    /* margin-top: 5px; */
+    transition: 1s;
+    transform: scale(1.05);
+    z-index: 0.2s;
 }
 
 .site-footer {
